@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="et_padding_top">12dp</dimen>
+    <dimen name="et_padding_bottom">12dp</dimen>
+    <dimen name="et_padding_top_con">10dp</dimen>
+    <dimen name="et_padding_bottom_con">10dp</dimen>
+    <dimen name="et_padding_left">20dp</dimen>
+    <dimen name="et_padding_right">20dp</dimen>
+    <dimen name="et_margin_top">5dp</dimen>
+    <dimen name="et_margin_bottom">5dp</dimen>
+    <dimen name="et_margin_left">10dp</dimen>
+    <dimen name="et_margin_right">10dp</dimen>
+    <dimen name="et_text_size">15sp</dimen>
+     <dimen name="button_inset_vertical_material">6dp</dimen>
+    <dimen name="button_inset_horizontal_material">4dp</dimen>
+
+    <dimen name="control_corner_material">2dp</dimen>
+
+    <dimen name="button_padding_vertical_material">4dp</dimen>
+    <dimen name="button_padding_horizontal_material">8dp</dimen>
+</resources>

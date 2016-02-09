@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="vpi_custom_txt_Title" type="id" />
+    <item name="vpi_custom_txt_btm" type="id" />
+    <item name="tabImage" type="id" />
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_grey">#515151</color>
+    <color name="med_grey">#808080</color>
+    <color name="app_theme">#F8B323</color>
+    <color name="et_non_focus">#80F8B323</color>
+    <color name="et_focus">#FFF8B323</color>
+    <color name="vpi_non_focus">#80F8B323</color>
+    <color name="vpi_focus">#FFF8B323</color>
+    <color name="exp_0_fill">#ECECEC</color>
+    <color name="exp_0_border">#FFFFFF</color>
+    <color name="exp_1_fill">#FAC3BB</color>
+    <color name="exp_1_border">#F1412A</color>
+    <color name="colorPrimary">#E89D00</color>
+    <color name="colorPrimaryDark">#F8B323</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#FF9A00</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="smallCircleColor">#FFDF8D81</color>
+    <color name="largeCircleColor">#FFAF3854</color>
+    <color name="outerCircleColor">#FF533456</color>
+
+</resources>

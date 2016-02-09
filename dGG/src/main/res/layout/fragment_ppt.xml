@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/layTip1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt1"
+        android:background="@android:color/transparent"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/layTip2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt2"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layTip3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt3"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layTip4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt4"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layTip5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt5"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layTip6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt6"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layTip7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt7"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layTip8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt8"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/layTip9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/ppt9"
+        android:background="@android:color/transparent"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/myviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:id="@+id/layIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <utils.widget.InkPageIndicator
+            android:id="@+id/ink_pager_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:animationDuration="300"
+            app:currentPageIndicatorColor="@color/white"
+            app:dotDiameter="15dp"
+            app:dotGap="10dp"
+            app:pageIndicatorColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</RelativeLayout>

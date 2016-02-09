@@ -1,0 +1,1 @@
+Additionally polling can be targeted to specific groups where the data fields exist for an additional set up fee.  Note this type of poll may incur up to 10 minute delays for incoming data tracking and processing.  

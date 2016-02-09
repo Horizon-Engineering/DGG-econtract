@@ -1,0 +1,1 @@
+This contract extends to and terminates on __DATE2__.

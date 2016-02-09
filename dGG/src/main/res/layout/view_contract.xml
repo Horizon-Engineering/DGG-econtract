@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.apmem.tools.layouts.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="10dip" 
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etDate1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="DD"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etMonth1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="MM"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etYear1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="YYYY"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etName1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="NAME"
+        android:inputType="textCapWords"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+<utils.widget.TextViewLight
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:text="" />
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etDate2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="DD"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etMonth2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="MM"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etYear2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="YYYY"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_6"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_7"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etAmount1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="$$$$"
+        android:inputType="number"
+        android:maxLength="5"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etAmount2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="$$"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_8"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etDate4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="DD"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etMonth4"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="MM"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etYear4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="YYYY"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:text="" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="I"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etName11"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="NAME"
+        android:inputType="textCapWords"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_10"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_11"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etPrint1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="NAME"
+        android:inputType="textCapWords"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:text="" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="I"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etName12"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="NAME"
+        android:inputType="textCapWords"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_12"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_11"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etPrint2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:hint="NAME"
+        android:inputType="textCapWords"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+<utils.widget.TextViewLight
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:text="" />
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="@string/contract_13"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etDate3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="DD"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etMonth3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:hint="MM"
+        android:inputType="number"
+        android:maxLength="2"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <utils.widget.TextViewLight
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:text="/"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/dark_grey" />
+
+    <utils.widget.EditTextContract
+        android:id="@+id/etYear3"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="YYYY"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</org.apmem.tools.layouts.FlowLayout>

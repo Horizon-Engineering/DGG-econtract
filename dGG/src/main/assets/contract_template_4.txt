@@ -1,0 +1,1 @@
+This use is limited to polling the designated database. "DGG" takes on the responsibility of delivering the results of these polls and analytics in as close to real time as current technology allows.
