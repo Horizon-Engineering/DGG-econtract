@@ -72,8 +72,8 @@ public class ContractActivity extends FragmentActivity {
 
 			@Override
 			public void onClick(View arg0) {
-				//saveContract();
-				doSuccessProcess(true);
+				saveContract();
+				//doSuccessProcess(true);
 			}
 		});
 		findViewById(R.id.imgHeaderBack).setOnClickListener(new OnClickListener() {
@@ -864,7 +864,7 @@ public class ContractActivity extends FragmentActivity {
 
 	String PAYPAL_MODE = PayPalConfiguration.ENVIRONMENT_PRODUCTION;
 	String PAYPAL_CLIENT_ID = LIVE_CLIENT_ID;
-	String MAIL_IN_USE = "dollar.rokka@gmail.com";
+	String MAIL_IN_USE = "chawichh@msn.com";
 
 	private PayPalConfiguration config = new PayPalConfiguration().environment(PAYPAL_MODE).clientId(PAYPAL_CLIENT_ID);
 
